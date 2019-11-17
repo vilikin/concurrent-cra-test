@@ -8,12 +8,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: yarn install, build, test
-      run: |
-        yarn install
-        yarn build
-        yarn test
-    - name: yarn lint
-      run: yarn lint
+    - run: yarn install
+    - run: yarn build
+    - run: yarn test
+    - run: yarn lint
     env:
         CI: 'true'
