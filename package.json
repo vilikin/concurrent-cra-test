@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prettier": "prettier --check 'src/**/*.ts'",
-    "lint": "eslint src/**"
+    "lint": "eslint src/**/*.ts"
   },
   "eslintConfig": {
     "extends": "react-app"
