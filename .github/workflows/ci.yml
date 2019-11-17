@@ -15,3 +15,7 @@ jobs:
         yarn test
       env:
         CI: 'true'
+    - name: yarn lint
+      run: yarn lint
+      env:
+        CI: 'true'
